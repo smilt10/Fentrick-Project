@@ -14,7 +14,7 @@ export default function TestimonialsPage() {
       role: "Homeowner",
       location: "East Legon, Accra",
       rating: 5,
-      image: "/placeholder.svg?height=80&width=80&text=KA",
+      image: "/placeholder-user.jpg",
       testimonial:
         "FENTRICK transformed our home with a beautiful new roof. Their professionalism and attention to detail exceeded our expectations. The team was punctual, clean, and delivered exactly what they promised.",
       project: "Residential Roof Replacement",
@@ -24,7 +24,7 @@ export default function TestimonialsPage() {
       role: "Business Owner",
       location: "Airport City, Accra",
       rating: 5,
-      image: "/placeholder.svg?height=80&width=80&text=AM",
+      image: "/placeholder-user.jpg",
       testimonial:
         "We needed emergency roof repairs after a storm, and FENTRICK responded within hours. Their 24/7 service saved our business from major water damage. Highly recommended for commercial properties.",
       project: "Emergency Commercial Repair",
@@ -34,7 +34,7 @@ export default function TestimonialsPage() {
       role: "Medical Professional",
       location: "Kumasi, Ashanti Region",
       rating: 5,
-      image: "/placeholder.svg?height=80&width=80&text=EO",
+      image: "/placeholder-user.jpg",
       testimonial:
         "The quality of work and materials used by FENTRICK is outstanding. Our clinic's roof has been perfect for over two years now, with no issues whatsoever. Worth every pesewa!",
       project: "Medical Facility Roofing",
@@ -44,7 +44,7 @@ export default function TestimonialsPage() {
       role: "Property Developer",
       location: "Tema, Greater Accra",
       rating: 5,
-      image: "/placeholder.svg?height=80&width=80&text=SA",
+      image: "/placeholder-user.jpg",
       testimonial:
         "As a developer, I've worked with many contractors, but FENTRICK stands out. They completed our 50-unit estate on time and within budget. Their project management is exceptional.",
       project: "Estate Development",
@@ -54,7 +54,7 @@ export default function TestimonialsPage() {
       role: "Factory Owner",
       location: "Takoradi, Western Region",
       rating: 5,
-      image: "/placeholder.svg?height=80&width=80&text=MB",
+      image: "/placeholder-user.jpg",
       testimonial:
         "FENTRICK installed our industrial roofing system with precision. The heavy-duty materials and expert installation have withstood harsh weather conditions perfectly. Great investment!",
       project: "Industrial Warehouse",
@@ -64,7 +64,7 @@ export default function TestimonialsPage() {
       role: "School Administrator",
       location: "Cape Coast, Central Region",
       rating: 5,
-      image: "/placeholder.svg?height=80&width=80&text=GA",
+      image: "/placeholder-user.jpg",
       testimonial:
         "Our school's roof renovation was handled with care and minimal disruption to classes. FENTRICK's team was respectful of our educational environment and delivered excellent results.",
       project: "Educational Institution",
@@ -74,7 +74,7 @@ export default function TestimonialsPage() {
       role: "Restaurant Owner",
       location: "Accra, Greater Accra",
       rating: 5,
-      image: "/placeholder.svg?height=80&width=80&text=JN",
+      image: "/placeholder-user.jpg",
       testimonial:
         "The waterproofing solution FENTRICK provided has completely solved our leak problems. Our restaurant operates smoothly now, rain or shine. Professional service from start to finish.",
       project: "Commercial Waterproofing",
@@ -84,7 +84,7 @@ export default function TestimonialsPage() {
       role: "Homeowner",
       location: "Spintex, Accra",
       rating: 5,
-      image: "/placeholder.svg?height=80&width=80&text=AD",
+      image: "/placeholder-user.jpg",
       testimonial:
         "From consultation to completion, FENTRICK was transparent about costs and timelines. No surprises, no hidden fees. The quality of their work speaks for itself. Highly satisfied!",
       project: "Residential New Installation",
@@ -94,7 +94,7 @@ export default function TestimonialsPage() {
       role: "Hotel Manager",
       location: "Elmina, Central Region",
       rating: 5,
-      image: "/placeholder.svg?height=80&width=80&text=RO",
+      image: "/placeholder-user.jpg",
       testimonial:
         "Our hotel's roof needed urgent attention during peak season. FENTRICK worked around our schedule and completed the repairs without disrupting our guests. Exceptional service!",
       project: "Hospitality Sector Repair",
@@ -166,7 +166,7 @@ export default function TestimonialsPage() {
 
                   <div className="flex items-center space-x-4">
                     <Image
-                      src={testimonial.image || "/placeholder.svg"}
+                      src={testimonial.image || "/placeholder-user.jpg"}
                       alt={testimonial.name}
                       width={60}
                       height={60}

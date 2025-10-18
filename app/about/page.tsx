@@ -63,11 +63,11 @@ export default function AboutPage() {
             </div>
             <div className="relative">
               <Image
-                src="/placeholder.svg?height=500&width=600&text=FENTRICK+Team"
+                src="/images/team-work.jpg"
                 alt="FENTRICK roofing team"
                 width={600}
                 height={500}
-                className="rounded-3xl shadow-2xl"
+                className="rounded-3xl shadow-2xl object-cover"
               />
             </div>
           </div>

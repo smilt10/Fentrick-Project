@@ -15,7 +15,7 @@ export default function ProjectsPage() {
       category: "Residential",
       year: "2024",
       description: "Complete roof replacement for a luxury villa featuring premium materials and modern design.",
-      image: "/placeholder.svg?height=400&width=600&text=Luxury+Villa+East+Legon",
+      image: "/images/project-1.jpg",
       features: ["Premium Clay Tiles", "Advanced Waterproofing", "Solar Panel Integration", "10-Year Warranty"],
     },
     {
@@ -24,7 +24,7 @@ export default function ProjectsPage() {
       category: "Commercial",
       year: "2024",
       description: "Large-scale commercial roofing project for a modern office complex with sustainable features.",
-      image: "/placeholder.svg?height=400&width=600&text=Office+Complex+Airport+City",
+      image: "/images/project-2.jpg",
       features: ["Metal Roofing System", "Energy Efficient Design", "Drainage Solutions", "Maintenance Program"],
     },
     {
@@ -33,7 +33,7 @@ export default function ProjectsPage() {
       category: "Residential",
       year: "2023",
       description: "Complete roofing solution for a 50-unit residential estate with uniform design standards.",
-      image: "/placeholder.svg?height=400&width=600&text=Estate+Development+Tema",
+      image: "/images/project-3.jpg",
       features: ["Uniform Design", "Bulk Installation", "Quality Control", "Extended Warranty"],
     },
     {
@@ -42,7 +42,7 @@ export default function ProjectsPage() {
       category: "Industrial",
       year: "2023",
       description: "Heavy-duty industrial roofing for a large warehouse facility with specialized requirements.",
-      image: "/placeholder.svg?height=400&width=600&text=Industrial+Warehouse+Kumasi",
+      image: "/images/commercial-roofing.jpg",
       features: ["Heavy-Duty Materials", "Large Span Coverage", "Ventilation Systems", "Fire Resistance"],
     },
     {
@@ -51,7 +51,7 @@ export default function ProjectsPage() {
       category: "Institutional",
       year: "2023",
       description: "Comprehensive roofing renovation for a prestigious educational institution.",
-      image: "/placeholder.svg?height=400&width=600&text=School+Cape+Coast",
+      image: "/images/residential-roofing.jpg",
       features: ["Heritage Preservation", "Modern Materials", "Safety Standards", "Phased Installation"],
     },
     {
@@ -60,7 +60,7 @@ export default function ProjectsPage() {
       category: "Commercial",
       year: "2022",
       description: "Complex roofing system for a major shopping mall with multiple levels and requirements.",
-      image: "/placeholder.svg?height=400&width=600&text=Shopping+Mall+Takoradi",
+      image: "/images/hero-roofing.jpg",
       features: ["Multi-Level Design", "Skylight Integration", "Weather Resistance", "Maintenance Access"],
     },
   ]
@@ -142,7 +142,7 @@ export default function ProjectsPage() {
               >
                 <div className="relative overflow-hidden">
                   <Image
-                    src={project.image || "/placeholder.svg"}
+                    src={project.image || "/placeholder.jpg"}
                     alt={project.title}
                     width={600}
                     height={400}

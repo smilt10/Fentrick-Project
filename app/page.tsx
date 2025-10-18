@@ -83,11 +83,11 @@ export default function HomePage() {
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-br from-amber-500/20 to-orange-600/20 rounded-3xl transform rotate-3"></div>
               <Image
-                src="/placeholder.svg?height=600&width=500"
+                src="/images/hero-roofing.jpg"
                 alt="Premium roofing installation"
                 width={500}
                 height={600}
-                className="relative rounded-3xl shadow-2xl"
+                className="relative rounded-3xl shadow-2xl object-cover"
               />
             </div>
           </div>
@@ -178,11 +178,11 @@ export default function HomePage() {
             </div>
             <div className="relative">
               <Image
-                src="/placeholder.svg?height=500&width=600"
+                src="/images/team-work.jpg"
                 alt="FENTRICK roofing team"
                 width={600}
                 height={500}
-                className="rounded-3xl shadow-2xl"
+                className="rounded-3xl shadow-2xl object-cover"
               />
               <div className="absolute -bottom-8 -left-8 bg-white p-6 rounded-2xl shadow-xl">
                 <div className="flex items-center space-x-4">
@@ -216,17 +216,17 @@ export default function HomePage() {
               {
                 title: "Luxury Residential Villa",
                 location: "East Legon, Accra",
-                image: "/placeholder.svg?height=300&width=400",
+                image: "/images/project-1.jpg",
               },
               {
                 title: "Commercial Office Complex",
                 location: "Airport City, Accra",
-                image: "/placeholder.svg?height=300&width=400",
+                image: "/images/project-2.jpg",
               },
               {
                 title: "Residential Estate",
                 location: "Tema, Greater Accra",
-                image: "/placeholder.svg?height=300&width=400",
+                image: "/images/project-3.jpg",
               },
             ].map((project, index) => (
               <Card
@@ -235,7 +235,7 @@ export default function HomePage() {
               >
                 <div className="relative overflow-hidden">
                   <Image
-                    src={project.image || "/placeholder.svg"}
+                    src={project.image || "/placeholder.jpg"}
                     alt={project.title}
                     width={400}
                     height={300}

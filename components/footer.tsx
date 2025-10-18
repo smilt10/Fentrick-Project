@@ -28,23 +28,33 @@ export function Footer() {
             <h4 className="font-semibold mb-4">Services</h4>
             <ul className="space-y-2 text-slate-400">
               <li>
-                <Link href="/services" className="hover:text-white transition-colors">
+                <Link href="/services/residential-roofing" className="hover:text-white transition-colors">
                   Residential Roofing
                 </Link>
               </li>
               <li>
-                <Link href="/services" className="hover:text-white transition-colors">
+                <Link href="/services/commercial-roofing" className="hover:text-white transition-colors">
                   Commercial Roofing
                 </Link>
               </li>
               <li>
-                <Link href="/services" className="hover:text-white transition-colors">
+                <Link href="/services/roof-repairs" className="hover:text-white transition-colors">
                   Roof Repairs
                 </Link>
               </li>
               <li>
-                <Link href="/services" className="hover:text-white transition-colors">
+                <Link href="/services/emergency-services" className="hover:text-white transition-colors">
                   Emergency Services
+                </Link>
+              </li>
+              <li>
+                <Link href="/services/waterproofing" className="hover:text-white transition-colors">
+                  Waterproofing
+                </Link>
+              </li>
+              <li>
+                <Link href="/services/roof-maintenance" className="hover:text-white transition-colors">
+                  Roof Maintenance
                 </Link>
               </li>
             </ul>

@@ -14,42 +14,48 @@ export default function ServicesPage() {
       title: "Residential Roofing",
       description: "Complete roofing solutions for homes including new installations, replacements, and upgrades.",
       features: ["New Roof Installation", "Roof Replacement", "Roof Upgrades", "Residential Repairs"],
-      image: "/placeholder.svg?height=300&width=400&text=Residential+Roofing",
+      image: "/images/service-residential.jpg",
+      link: "/services/residential-roofing",
     },
     {
       icon: Building,
       title: "Commercial Roofing",
       description: "Professional roofing services for commercial buildings, offices, and industrial facilities.",
       features: ["Commercial Installation", "Industrial Roofing", "Office Buildings", "Warehouse Roofing"],
-      image: "/placeholder.svg?height=300&width=400&text=Commercial+Roofing",
+      image: "/images/service-commercial.jpg",
+      link: "/services/commercial-roofing",
     },
     {
       icon: Wrench,
       title: "Roof Repairs",
       description: "Expert repair services to fix leaks, damage, and extend your roof's lifespan.",
       features: ["Leak Repairs", "Storm Damage", "Tile Replacement", "Structural Repairs"],
-      image: "/placeholder.svg?height=300&width=400&text=Roof+Repairs",
+      image: "/images/roof-repairs.jpg",
+      link: "/services/roof-repairs",
     },
     {
       icon: Zap,
       title: "Emergency Services",
       description: "24/7 emergency roofing services for urgent repairs and storm damage restoration.",
       features: ["24/7 Availability", "Storm Response", "Emergency Repairs", "Temporary Solutions"],
-      image: "/placeholder.svg?height=300&width=400&text=Emergency+Services",
+      image: "/images/emergency-services.jpg",
+      link: "/services/emergency-services",
     },
     {
       icon: Droplets,
       title: "Waterproofing",
       description: "Advanced waterproofing solutions to protect your property from water damage.",
       features: ["Membrane Installation", "Sealant Application", "Drainage Systems", "Moisture Control"],
-      image: "/placeholder.svg?height=300&width=400&text=Waterproofing",
+      image: "/images/waterproofing.jpg",
+      link: "/services/waterproofing",
     },
     {
       icon: Paintbrush,
       title: "Roof Maintenance",
       description: "Regular maintenance programs to keep your roof in optimal condition year-round.",
       features: ["Regular Inspections", "Preventive Maintenance", "Cleaning Services", "Performance Monitoring"],
-      image: "/placeholder.svg?height=300&width=400&text=Roof+Maintenance",
+      image: "/images/roof-maintenance.jpg",
+      link: "/services/roof-maintenance",
     },
   ]
 
@@ -87,7 +93,7 @@ export default function ServicesPage() {
               >
                 <div className="relative overflow-hidden">
                   <Image
-                    src={service.image || "/placeholder.svg"}
+                    src={service.image || "/placeholder.jpg"}
                     alt={service.title}
                     width={400}
                     height={300}
@@ -110,9 +116,9 @@ export default function ServicesPage() {
                       </li>
                     ))}
                   </ul>
-                  <Link href="/get-quote">
+                  <Link href={service.link}>
                     <Button className="w-full bg-gradient-to-r from-red-500 to-red-600 hover:from-red-600 hover:to-red-700">
-                      Get Quote
+                      Learn More
                     </Button>
                   </Link>
                 </CardContent>
