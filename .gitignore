@@ -5,7 +5,11 @@
 
 # next.js
 /.next/
+<<<<<<< HEAD
 + # /out/
+=======
+# /out/
+>>>>>>> 8d05219 (Add static site output for GitHub Pages)
 
 # production
 /build
